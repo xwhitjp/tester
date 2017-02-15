@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Best Jerky on the Market!</title>
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<style>
+*{
+font-family: 'Russo One', sans-serif;
+color: #698;	
+}
+
+
+/* Structure Layout*/
+
+	#pagewrap{
+		padding:5px;
+		width:960px;
+		margin:20px auto;
+	}
+	header{
+		height: 100px;
+		padding:0 15px;
+	}
+	#content{
+		width:290px;
+		float:left;
+		padding: 5px 15px;
+
+	}
+
+#middle{
+	width:294px;
+	float:left;
+	padding: 5px 15px;
+	margin:0px 5px 5px 5px;
+
+
+}
+#sidebar{
+width:270px;
+padding:5px 15px;
+float:left;
+
+}
+
+#footer{
+	clear:both;
+	padding:0 15px;
+	
+}
+/*******************************************************
+	MEDIA QUERIES
+*******************************************************/
+
+/*For 980px or less */
+
+@media screen and (max-width: 980px){
+
+	#pagewrap{
+		width: 94%;
+	}
+	#content{
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle{
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float:right;
+	}
+
+
+	header,footer {
+		padding: 1% 4%;
+	}
+
+}
+
+/*For 600px or less */
+@media screen and (max-width: 600px){
+	#content{
+		width: auto;
+		float:none;
+	}
+	#middle{
+		width: auto;
+		float:none;
+		margin-left: 0px;
+	}
+	#sidebar{
+		width: auto;
+		float:none;
+
+	}
+}
+
+/*For 480px or less */
+@media screen and (max-width: 480px){
+	header{
+		height:auto;
+
+	}
+	h1{
+		font-size:2em;
+	}
+	#sidebar{
+		display:none;
+	}
+
+#sidebar{
+	background: #f0efef;
+}
+header,#content,#middle,#sidebar{
+	margin-bottom: 5px;
+}
+#pagewrap,header,#content,#middle,#sidebar,footer{
+	border:solid 1px #ccc;
+}
+
+
+
+
+
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+<div id ="pagewrap">
+	<header>
+	  <h1> Best Jerky on the Market! </h1>
+	</header>
+
+	<section id ="content" align ="center">
+	<h2> Ostrich </h2>
+	<img src ="img/ostrich.jpg" style="width:250px;height:150px">
+	<p>Ostrich jerky straight from Persia.</p>
+	<p>$7.00</p>
+
+	<h2> Alpaca </h2>
+<img src="img/alpaca.jpg" style="width:250px;height:150px">
+	<p> Alpaca jerky from Ecuador.
+	</p>
+<p>$13.00</p>
+
+
+
+
+
+
+	</section>
+
+	<section id ="middle" align ="center">
+	<h2> Kangaroo </h2>
+	<img src="img/kangaroo.jpg" style="width:250px;height:150px">
+	<p>Kangaroo jerky from Australia.</p>
+<p>$13.00</p>
+
+<h2> Yak</h2>
+<img src="img/yak.jpg" style="width:250px;height:150px">
+	<p> Yak Jerky.
+	</p>
+<p>$22.00</p>
+	</section>
+
+	<aside id ="sidebar" align ="center">
+	<h2> Bengal </h2>
+	<img src="img/bengal.jpg" style="width:250px;height:150px">
+	<p> Bengal jerky from Egypt.
+	</p>
+<p>$18.00</p>
+
+<h2> Rattlesnake</h2>
+<img src="img/rattlesnake.jpg" style="width:250px;height:150px">
+	<p> Rattlesnake Jerky.
+	</p>
+<p>$6.00</p>
+	</aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
